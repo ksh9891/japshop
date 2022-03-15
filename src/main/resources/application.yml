@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:file:C:/develop/study/h2/jpashop
+    url: jdbc:h2:tcp://localhost/~/jpashop
     username: sa
     driver-class-name: org.h2.Driver
   jpa:
@@ -14,3 +14,4 @@ spring:
 logging:
   level:
     org.hibernate.SQL: debug
+    org.hibernate.type: trace
